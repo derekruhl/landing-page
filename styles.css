@@ -13,6 +13,7 @@
 
 a {
     color: #f9faf8;
+    flex: auto;
 }
 
 body {
@@ -33,6 +34,7 @@ body {
     flex: auto;
     flex-wrap: wrap;
     width: 300px;
+    height: auto;
     align-items: center;
     justify-content: center;
     padding: 24px 8px;
@@ -42,6 +44,10 @@ button.submit {
     background-color: #3882f6;
     color: white;
     padding: 3px 6px;
+    border-radius: 5px;
+    box-shadow: none;
+    outline: none;
+    border: none;
 }
 
 .container-2 {
@@ -90,11 +96,14 @@ button.submit {
     font-size: 48px;
     font-weight: extra-bold;
     color: #f9faf8;
+    font-family: Arial, Helvetica, sans-serif;
+
 }
 
 .hero-small {
         font-size: 18px;
         color: #e5e7eb;
+        font-family: Arial, Helvetica, sans-serif;
 }
 
  ul {
