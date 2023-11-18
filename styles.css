@@ -3,6 +3,16 @@
     background-color: #1f2937;
     margin: 0;
     text-decoration: none;
+    color: #f9faf8;
+}
+
+.logo {
+    font-size: 24px;
+    color: #f9faf8;
+}
+
+a {
+    color: #f9faf8;
 }
 
 body {
@@ -33,10 +43,21 @@ body {
     margin: 0;
 }
 
+.card {
+    background-color: #3882f6;
+    justify-content: center;
+    align-items: center;
+}
+
+.action, .text {
+    color: #e5e7eb;
+}
+
 .footer {
     display: flex;
     background-color: #1f2937;
     margin: 0;
+    color: #f9faf8;
 }
 
 .hero {
@@ -48,7 +69,7 @@ body {
 .hero-small {
         font-size: 18px;
         color: #e5e7eb;
-    }
+}
 
  ul {
     list-style-type: none;
