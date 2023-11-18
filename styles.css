@@ -31,9 +31,9 @@ body {
 }
 
 .container-1 {
-    flex: auto;
+    flex: 1 1 auto;
     flex-wrap: wrap;
-    width: 300px;
+    width: 200px;
     height: auto;
     align-items: center;
     justify-content: center;
@@ -43,11 +43,12 @@ body {
 button.submit {
     background-color: #3882f6;
     color: white;
-    padding: 3px 6px;
+    padding: 6px 24px;
     border-radius: 5px;
     box-shadow: none;
     outline: none;
     border: none;
+    font-weight: 800;
 }
 
 .container-2 {
@@ -72,6 +73,8 @@ button.submit {
 .fourth-section {
     display: flex;
     margin: 0;
+    margin: 100px;
+    
 }
 
 .card {
@@ -79,6 +82,8 @@ button.submit {
     justify-content: center;
     align-items: center;
     flex: auto;
+    border-radius: 5px;
+    padding: 24px 48px;
 }
 
 .action, .text {
