@@ -101,6 +101,7 @@ img {
     display: flex;
     margin: 0;
     margin: 100px;
+    justify-content: center;
     
 }
 
@@ -111,6 +112,15 @@ img {
     flex: auto;
     border-radius: 5px;
     padding: 24px 48px;
+    display: flex;
+}
+
+.last-button {
+    background-color: #3882f6;
+    border: #f9faf8 solid;
+    border-radius: 5px;
+    color: #f9faf8;
+    padding: 8px 24px;
 }
 
 .action, .text {
@@ -122,6 +132,8 @@ img {
     background-color: #1f2937;
     margin: 0;
     color: #f9faf8;
+    justify-content: center;
+    padding: 32px 0;
 }
 
 .hero {
