@@ -117,10 +117,14 @@ img {
 
 .last-button {
     background-color: #3882f6;
-    border: #f9faf8 solid;
+    border: thin #f9faf8 solid;
     border-radius: 5px;
     color: #f9faf8;
     padding: 8px 24px;
+}
+
+h5 {
+    font-size: 24px;
 }
 
 .action, .text {
