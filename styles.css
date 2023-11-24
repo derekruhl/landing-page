@@ -33,7 +33,7 @@ body {
     display: flex;
     background-color: #1f2937;
     margin: 0;
-    padding: 8px 24px;
+    padding: 48px 96px;
     justify-content: center;
     align-items: center;
 }
@@ -76,6 +76,17 @@ button.submit {
 .second-section {
     display: flex;
     margin: 0;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+h3 {
+    flex: 1;
+}
+
+.container-3 {
+    display: flex;
 }
 
 img {
