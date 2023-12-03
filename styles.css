@@ -1,10 +1,12 @@
 .header {
     display: flex;
+    flex-direction: row;
     background-color: #1f2937;
     margin: 0;
     text-decoration: none;
     color: #f9faf8;
     font-family: Arial, Helvetica, sans-serif;
+    padding: 48px 96px;
 }
 
 .logo {
@@ -79,6 +81,7 @@ button.submit {
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    padding: 0 50px 50px 50px;
 }
 
 h3 {
@@ -90,12 +93,26 @@ h3 {
 ul {
     list-style-type: none;
     display: flex;
+    flex-wrap: wrap;
 }
 
 li {
     margin: 8px;
     display: flex;
     flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.illustrations {
+    width: 300px;
+    flex: auto;
+    display: flex;
+    justify-content: center;
+}
+
+.subtext {
+    width: 150px;
+    flex: auto;
 }
 
 .container-3 {
@@ -162,6 +179,8 @@ q {
 .lets-go {
     display: flex;
     flex-direction: column;
+    justify-content:center;
+    flex-wrap: wrap;
 }
 
 .last-button {
@@ -172,9 +191,9 @@ q {
     padding: 8px 24px;
 }
 
-h5 {
+.action {
     font-size: 24px;
-    padding: 0;
+    
 }
 
 .action, .text {
